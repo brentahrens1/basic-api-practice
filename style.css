@@ -19,6 +19,7 @@
     text-align:center;
     background: transparent;
     margin-bottom: 2rem;
+    animation: moveUp 1.5s ease-in;
 }
 
 h1 {
@@ -30,4 +31,24 @@ h1 {
 p {
     margin: 0;
     padding: .5rem;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(30px);
+        color: blue;
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        transform: translateY(0px);
+        color: #000;
+    }
 }
