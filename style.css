@@ -9,10 +9,15 @@
 .card {
     width: 40%;
     margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border: 1px solid #000;
     background: lightblue;
     box-shadow: -5px 5px 5px 1px #000;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .header {
