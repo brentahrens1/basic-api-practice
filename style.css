@@ -11,8 +11,7 @@
     margin: 0 auto;
     margin-bottom: 2rem;
     border: 1px solid #000;
-    background: lightblue;
-    box-shadow: -5px 5px 5px 1px #000;
+    box-shadow: -2px 2px 6px 1px #000;
     transition: transform .2s;
 }
 
@@ -21,14 +20,16 @@
 }
 
 .header {
+    color: #000;
     text-align:center;
     background: transparent;
     margin-bottom: 2rem;
-    animation: moveUp 1.5s ease-in;
+    animation: moveUp 2s ease-in;
 }
 
 h1 {
-    background: #aaaaaa;
+    color: #fff;
+    background: dodgerblue;
     margin: 0;
     padding: .5rem;
 }
@@ -36,11 +37,12 @@ h1 {
 p {
     margin: 0;
     padding: .5rem;
+    color: #000;
 }
 
 @keyframes moveUp {
     0% {
-        transform: translateY(30px);
+        transform: translateY(40px);
         color: blue;
     }
     25% {
